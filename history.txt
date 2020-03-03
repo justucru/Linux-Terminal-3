@@ -1,0 +1,40 @@
+  125  sort
+  126  grep Java
+  127  wc < languages.txt
+  128  cd ~
+  129  cd quetes/Shell
+  130  cd quetes/shell
+  131  wget https://gist.githubusercontent.com/bhubr/bc3a21a0202109beeb31c4a677e0461b/raw/d8805eb82e8aabffab3b0163596c734f376617d0/wilders.csv
+  132  head wilders.csv
+  133  man wc
+  134  grep "France, 2019, PHP" < wilders.csv | wc -l > php_france_2019.csv 
+  135  cat php_france_2019.csv
+  136  grep "France, 2019, PHP" < wilders.csv | wc -l
+  137  grep "France,2019,PHP" < wilders.csv | wc -l
+  138  grep "France,2019,PHP" < wilders.csv | wc -l > php_france_2019.csv 
+  139* 
+  140  grep "Biarritz,JavaScript" wilders.csv > bjs.csv
+  141  cat bjs.csv
+  142  grep "Toulouse, JavaScript" wilders.csv > tjs.csv
+  143  cat tjs.csv
+  144  grep "Biarritz,,,JavaScript" wilders.csv > bjs.csv
+  145  cat bjs.csv
+  146  man grep
+  147  grep "JavaScript" wilders.csv > js.csv
+  148  cat js.csv
+  149  grep "Biarritz" js.csv > bjs.csv
+  150  grep "Toulouse" js.csv > tjs.csv
+  151  cat bjs.csv tjs.csv > t_b_js.csv
+  152  cat t_b_js.csv | wc -l
+  153  mv t_b_js.csv javascript_biarritz_toulouse.csv
+  154  ls
+  155  history > history.txt | tail -50
+  156  cat history.txt
+  157  history > history.txt | tail -34
+  158  cat history.txt
+  159  history > history.txt | tail -n 34
+  160  cat history.txt
+  161  man history
+  162  history | tail -40 > history.txt
+  163  cat history.txt
+  164  history | tail -n 40 > history.txt
